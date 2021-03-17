@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Node Js</title>
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="./img/nodejs-icono.ico" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+        />
+        <!-- ANIMATE.CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
+
+        <!-- Animate and WOW -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <script src="./lib/js/wow.min.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script src="./lib/js/jquery-3.6.0.min.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+        <!-- JavaScript -->
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </head>
+    <body>
+        <!-- Loading HTML -->
+        <div class="loading show">
+            <div class="spin"></div>
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <nav class="menu">
+                <a href="#acercade">Acerca de</a>
+                <a href="#frameworks">Frameworks</a>
+                <a href="#npm">npm</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contactanos">Contactanos</a>
+            </nav>
+            <div class="header-content animated flash">
+                <img src="img/logo.png" alt="Fazt Logo" class="logo" />
+                <div class="title">Node Js Page</div>
+                <div class="text">
+                    Node.js® es un entorno de ejecución para JavaScript construido con el motor de JavaScript V8 de
+                    Chrome.
+                </div>
+            </div>
+        </header>
+
+        <!-- What is¡ -->
+        <section id="acercade" class="bg-light wow animate__animated animate__slideInUp">
+            <div class="container text-center">
+                <div class="grid-2">
+                    <div class="center wow animate__animated animate__backInLeft">
+                        <div style="margin-top: 15%">
+                            <i class="fab fa-node-js fa-10x"></i>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__backInRight">
+                        <h3 class="title">¿Qué es Node Js?</h3>
+                        <p>
+                            <span
+                                >Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para
+                                la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación
+                                JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado
+                                en el motor V8 de Google.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frameworks -->
+        <div id="frameworks" class="services text-center wow animate__animated animate__slideInUp">
+            <h3 class="title">Frameworks</h3>
+            <div class="container grid-3">
+                <div class="wow animate__animated animate__fadeInUpBig" data-wow-delay="0.1s">
+                    <div class="div-icon">
+                        <img src="img/express.png" class="icon" alt="" />
+                    </div>
+                    <h3>Express</h3>
+                    <div>
+                        Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un
+                        conjunto sólido de características para las aplicaciones web y móviles.
+                    </div>
+                </div>
+                <div class="wow animate__animated animate__fadeInUpBig" data-wow-delay="0.4s">
+                    <div class="div-icon">
+                        <img src="img/socket-io.png" class="icon" alt="" />
+                    </div>
+                    <h3>Socket IO</h3>
+                    <div>
+                        Socket.IO es una biblioteca que permite la comunicación en tiempo real, bidireccional y basada
+                        en eventos entre el explorador y el servidor.
+                    </div>
+                </div>
+                <div class="wow animate__animated animate__fadeInUpBig" data-wow-delay="0.7s">
+                    <div class="div-icon">
+                        <img src="img/electron.png" alt="" style="height: 100%" />
+                    </div>
+
+                    <h3>Electron Js</h3>
+                    <div>Un framework de javascript para crear apps de escritorio con HTML, CSS y JS.</div>
+                </div>
+            </div>
+        </div>
+        <!-- NPM -->
+        <section id="npm" class="bg-light">
+            <div class="container text-center">
+                <div class="grid-2">
+                    <div class="wow animate__animated animate__heartBeat">
+                        <h3 class="title">¿Qué es NPM?</h3>
+                        <p>
+                            Node Package Manager o simplemente npm es un gestor de paquetes, el cual hará más fáciles
+                            nuestras vidas al momento de trabajar con Node, ya que gracias a él podremos tener cualquier
+                            librería disponible con solo una línea de código, npm nos ayudará a administrar nuestros
+                            módulos, distribuir paquetes y agregar dependencias de una manera sencilla.
+                        </p>
+                    </div>
+                    <div class="img-grid wow animate__animated animate__rotateInDownRight">
+                        <img src="./img/npm.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrusel -->
+        <section style="background-color: black">
+            <div class="main-gallery wow fadeInRight" id="section-5" style="visibility: visible">
+                <div class="gallery-cell">
+                    <div class="testimonial">
+                        <img
+                            class="testimonial-avatar"
+                            src="https://files.merca20.com/uploads/2016/05/steve_jobs_instagram_mercadologo_genio.jpg"
+                        />
+                        <q class="testimonial-quote">La innovación distingue a los líderes de los seguidores.</q>
+                        <span class="testimonial-author">Steve Jobs, Cofundador de Apple.</span>
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="testimonial">
+                        <img
+                            class="testimonial-avatar"
+                            src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76b7d331358e35dd2773a9%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4401%26cropY1%3D0%26cropY2%3D4401"
+                        />
+                        <q class="testimonial-quote">Encuentra aquello por lo que realmente sientes pasión.</q>
+                        <span class="testimonial-author">Mark Zuckerberg, Cofundador y Ceo de Facebook</span>
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="testimonial">
+                        <img
+                            class="testimonial-avatar"
+                            src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5d8bd74018444200084e889c%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1339%26cropX2%3D3743%26cropY1%3D554%26cropY2%3D2956"
+                        />
+                        <q class="testimonial-quote"
+                            >Creo que este es el mejor consejo: piensa constantemente cómo podrías hacer mejor las
+                            cosas.</q
+                        >
+                        <span class="testimonial-author">Elon Musk, Cofundador de Paypal, Space X y Teslar</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section id="nosotros" class="services bg-light text-center">
+            <h3 class="title">Nuestro Equipo</h3>
+            <p>Nuestro proceso para crear proyectos increíbles.</p>
+            <div class="container grid-2">
+                <div
+                    class="about-tiles wow animate__animated animate__fadeInLeft"
+                    data-wow-delay="0.2s"
+                    style="visibility: visible"
+                >
+                    <div class="team-member text-center">
+                        <div class="team-img">
+                            <img alt="" src="./img/sergio.jpg" />
+                            <div class="overlay">
+                                <div class="team-details text-center">
+                                    <p>
+                                        &quot;Sabes cuál es el problema? Imaginarte el algoritmo y no programarlo.&quot;
+                                    </p>
+                                    <div class="socials mt-20">
+                                        <a href="#"><i class="fab fa-facebook"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="team-title">Sergio Aparicio</h4>
+                        <span>Programador e integrador de Tecnologías.</span>
+                    </div>
+                </div>
+                <div
+                    class="about-tiles wow animate__animated animate__fadeInRight"
+                    data-wow-delay="0.2s"
+                    style="visibility: visible"
+                >
+                    <div class="team-member text-center">
+                        <div class="team-img">
+                            <img alt="" src="./img/richard.jpg" />
+                            <div class="overlay">
+                                <div class="team-details text-center">
+                                    <p>&quot;El diseño gráfico es simple, por eso es tan complicado&quot;</p>
+                                    <div class="socials mt-20">
+                                        <a href="#"><i class="fab fa-facebook"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="team-title">Richard Cano</h4>
+                        <span>Diseñador Gráfico</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contactanos -->
+        <section id="contactanos" class="contacto">
+            <div>
+                <div class="footer-textos">
+                    <h2>Contactanos</h2>
+                    <p>Consulte o cotice tus proyectos en Node Js</p>
+                </div>
+                <form action="" class="formulario" method="POST">
+                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="" />
+                    <input
+                        type="email"
+                        placeholder="Correo"
+                        id="correo"
+                        name="correo"
+                        required
+                        value=""
+                        class="email"
+                    />
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                    <div class="derecha">
+                        <input class="boton derecha" type="submit" value="Contactar" name="submmit" />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="text-center bg-light">
+            <p>Sergio Aparicio &amp; Richard Cano &copy; 2021 - All rights reserved</p>
+        </footer>
+
+        <!-- Loading Javascript -->
+        <script>
+            $(window).on('load', function () {
+                setTimeout(function () {
+                    $('.loading').css({ visibility: 'hidden', opacity: '0' }).removeClass('show');
+                }, 2000);
+            });
+        </script>
+        <script>
+            new WOW().init();
+
+            //Carrusel
+            $('.main-gallery').flickity({
+                // options
+                cellAlign: 'left',
+                contain: true,
+                wrapAround: true,
+                prevNextButtons: true,
+                autoPlay: 5000,
+            });
+
+            // scroll suave
+            $(document).ready(function () {
+                $('a[href^="#"]').click(function () {
+                    var destino = $(this.hash);
+                    if (destino.length == 0) {
+                        destino = $('a[name="' + this.hash.substr(1) + '"]');
+                    }
+                    if (destino.length == 0) {
+                        destino = $('html');
+                    }
+                    $('html, body').animate({ scrollTop: destino.offset().top }, 800);
+                    return false;
+                });
+            });
+        </script>
+    </body>
+</html>
